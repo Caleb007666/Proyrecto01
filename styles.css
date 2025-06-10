@@ -1,0 +1,16 @@
+h1{
+    color: #ffff00;
+    background: #0000f0;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 29px;
+    font-style: italic;
+}
+body{
+    background: #248898de;
+}
+#secondParagraph{
+    width: 100%;
+    border: solid #555555;
+}
