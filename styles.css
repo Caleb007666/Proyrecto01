@@ -1,4 +1,8 @@
-h1{
+*{
+    margin: 0;
+}
+
+h1 {
     color: #ffff00;
     background: #0000f0;
     padding: 12px;
@@ -7,10 +11,39 @@ h1{
     border-radius: 29px;
     font-style: italic;
 }
-body{
+
+body {
     background: #248898de;
 }
-#secondParagraph{
+
+#secondParagraph {
     width: 100%;
     border: solid #555555;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: cornflowerblue;
+    position: sticky;
+    /* bottom: 0; */
+    /* right: 0; */
+    top: 0;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    display:flex;
+    gap: 19px;
+}
+section {
+    height: 100vh;
+    padding: 26px;
+    padding-top: 100px;
+}
+#wsp_container{
+    position: fixed;
+    bottom: 0;
+    right: 0
 }
