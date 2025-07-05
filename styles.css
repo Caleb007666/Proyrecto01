@@ -37,6 +37,10 @@ nav ul{
     display:flex;
     gap: 19px;
 }
+
+#sectioTwo {
+  color: green;
+}
 section {
     height: 100vh;
     padding: 26px;
